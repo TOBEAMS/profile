@@ -1,0 +1,90 @@
+/* Used the following color scheme
+https://colorhunt.co/palette/a1ccd1f4f2dee9b3847c9d96
+*/
+
+body {
+  font-family: "Lora";
+  background-color: #F4F2DE;
+  color: #555;
+  font-size: 16px;
+  line-height: 1em;
+  text-align: center;
+  padding: 20px;
+}
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lora bold";
+  color: #555;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0px;
+}
+
+.card {
+  background-color: #fff;
+  margin-top: 25px auto;
+  padding: 50px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #570a57;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+a {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #91c8e4;
+  color: #fff;
+  text-decoration: none;
+  /* background-color: #999; */
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+  margin: 7px 7px 7px;
+  display: inline-block;
+}
+
+a:hover {
+  color: #fafafa;
+  background-color: #333;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
